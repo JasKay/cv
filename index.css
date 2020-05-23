@@ -11,3 +11,29 @@ hr{
     border-style: dotted;
     height: 2px; width: 90%;
 }
+
+.top-container{
+    background-color:blue;
+    border: 10px;
+    border-style:solid;
+    padding: 20px;
+    width:200px;
+    height:200px;
+}
+
+.mid-container{
+    background-color: red;
+    border: 20px;
+    border-style:solid;
+    width:400px;
+    height:200px;
+
+}
+
+.bottom-container{
+    background-color:yellow;
+    border: 10px;
+    border-style:solid;
+    width:200px;
+    height:200px;
+}
