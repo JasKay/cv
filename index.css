@@ -34,11 +34,12 @@
 .about-screen{
     background-color: #1d3c45;
     height: 1000px;
-    margin: -30px;
+    margin: -25px;
+    padding: 30px;
     position: relative;
     text-align: center;
     top: 30px;
-    width: 860%;
+    width: 860%; 
     right: 280px;
 }
 
@@ -47,6 +48,8 @@
     font: "Sans serif";
     position: relative;
     text-align: center;
+    top: 250px;
+    right: 280px;
 }
 
 #about-screen-displays{
@@ -69,11 +72,15 @@
 
 /* Work Experience CSS Property Ends Here */
 .work-experience-screen{
-    background-color: #fff1e1;
+    background-color: #da801b;
     height: 1000px;
     text-align: center;
     margin: -25px;
     padding: 30px;
+    position: relative;
+    top: 20px;
+    right: 748px;
+    text-align: center;
 }
 
 #work-experience-id{
@@ -82,6 +89,7 @@
     position: relative;
     text-align: center;
     top: 450px;
+    left: 25%;
 }
 
 .explain-work-screen{
@@ -90,6 +98,15 @@
     text-align: center;
     margin: -25px;
     padding: 30px;
+    position: relative;
+    bottom: 1015px;
+    left: 725px;
+    width: 50%;
+}
+
+#work-experience-displays{
+    display: flex;
+    justify-content: center;
 }
 
 /* Work Experience CSS Property Ends Here */
