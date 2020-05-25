@@ -2,7 +2,8 @@
 .first-screen{
     background-color: #d2601a;
     height: 1000px;
-    margin: -25px;
+    margin: 1px;
+    width: 100%;
 }
 
 #my-links-id{
@@ -34,13 +35,14 @@
 .about-screen{
     background-color: #1d3c45;
     height: 1000px;
-    margin: -25px;
-    padding: 30px;
+    margin: 1px;
+    max-width: 50%;
+    /* padding: 30px;
     position: relative;
     text-align: center;
     top: 30px;
-    width: 860%; 
-    right: 280px;
+    width: 100%; 
+    right: 280px; */
 }
 
 #about-me-id{
@@ -48,8 +50,6 @@
     font: "Sans serif";
     position: relative;
     text-align: center;
-    top: 250px;
-    right: 280px;
 }
 
 #about-screen-displays{
@@ -61,12 +61,17 @@
     background-color: #8d18b4;
     height: 1000px;
     text-align: center;
+    width: 50%;
+    position: relative;
+    left: 500px;
+    
+    /* 
     margin: -25px;
     padding: 30px;
     position: relative;
     top: 30px;
     left: 300px;
-    width: 50%;
+    ; */
 }
 /* About Me CSS Property Ends Here */
 
