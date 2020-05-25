@@ -1,6 +1,123 @@
-body{
-    background-color: powderblue;
+/* First Screen */
+.first-screen{
+    background-color: #d2601a;
+    height: 1000px;
+    margin: -25px;
 }
+
+#my-links-id{
+    color: #fff1e1;
+    font: "Monaco";
+    position: relative;
+    text-align: center;
+    top: 340px;
+}
+
+#my-name-id{
+    color: #fff1e1;
+    font: "Monaco";
+    position: relative;
+    text-align: center;
+    top: 180px;
+}
+
+#my-pic-id{
+    height: 450px;
+    left: 40.5%;
+    position: relative;
+    top: 180px;
+    width: 20%;
+}
+/* First Screen CSS Property Ends Here */
+
+/* About Me CSS Property Starts Here */
+.about-screen{
+    background-color: #1d3c45;
+    height: 1000px;
+    margin: -30px;
+    position: relative;
+    text-align: center;
+    top: 30px;
+    width: 860%;
+    right: 280px;
+}
+
+#about-me-id{
+    color: #fff1e1;
+    font: "Sans serif";
+    position: relative;
+    text-align: center;
+}
+
+#about-screen-displays{
+    display: flex;
+    justify-content: center;
+}
+
+.about-talk-screen{
+    background-color: #8d18b4;
+    height: 1000px;
+    text-align: center;
+    margin: -25px;
+    padding: 30px;
+    position: relative;
+    top: 30px;
+    left: 300px;
+    width: 50%;
+}
+/* About Me CSS Property Ends Here */
+
+/* Work Experience CSS Property Ends Here */
+.work-experience-screen{
+    background-color: #fff1e1;
+    height: 1000px;
+    text-align: center;
+    margin: -25px;
+    padding: 30px;
+}
+
+#work-experience-id{
+    color: #1d3c45;
+    font: "Sans serif";
+    position: relative;
+    text-align: center;
+    top: 450px;
+}
+
+.explain-work-screen{
+    background-color: #1d3c45;
+    height: 1000px;
+    text-align: center;
+    margin: -25px;
+    padding: 30px;
+}
+
+/* Work Experience CSS Property Ends Here */
+
+/* Contact Me CSS Property Starts Here */
+.contact-me-screen{
+    background-color: #fff1e1;
+    height: 1000px;
+    text-align: center;
+    margin: -25px;
+    padding: 30px;
+}
+
+.contact-me-id{
+    height: 1000px;
+    text-align: center;
+    margin: -25px;
+    padding: 30px;
+}
+
+.explain-contact-screen{
+    background-color: #d2601a;
+    height: 1000px;
+    text-align: center;
+    margin: -25px;
+    padding: 30px;
+}
+/* Contact Me CSS Property Ends Here */
 
 h1, h3{
     color: rgb(170, 134, 142);
@@ -12,28 +129,12 @@ hr{
     height: 2px; width: 90%;
 }
 
-.top-container{
-    background-color:blue;
-    border: 10px;
-    border-style:solid;
-    padding: 20px;
-    width:200px;
-    height:200px;
-}
-
-.mid-container{
-    background-color: red;
-    border: 20px;
-    border-style:solid;
-    width:400px;
-    height:200px;
-
-}
-
-.bottom-container{
-    background-color:yellow;
-    border: 10px;
-    border-style:solid;
-    width:200px;
-    height:200px;
+/* Signatures */
+.copyright-signature{
+    color: black;
+    text-align: center;
+    margin: -25px;
+    padding: 30px;
+    position: relative;
+    top: 700px;
 }
