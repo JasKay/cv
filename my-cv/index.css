@@ -2,9 +2,12 @@
 .first-screen{
     background-color: #d2601a;
     height: 1000px;
-    margin: 1px;
+    margin: 0px;
+    padding: 0px;
     width: 100%;
-}
+    left: 0;
+    top: 0;
+} 
 
 #my-links-id{
     color: #fff1e1;
@@ -36,10 +39,14 @@
     background-color: #1d3c45;
     height: 1000px;
     margin: 1px;
-    max-width: 50%;
-    /* padding: 30px;
+    width: 50%;
     position: relative;
     text-align: center;
+    display: inline-block;
+
+
+    /* 
+    
     top: 30px;
     width: 100%; 
     right: 280px; */
@@ -53,7 +60,7 @@
 }
 
 #about-screen-displays{
-    display: flex;
+    display: inline-block;
     justify-content: center;
 }
 
@@ -63,7 +70,9 @@
     text-align: center;
     width: 50%;
     position: relative;
-    left: 500px;
+    bottom: 1000px;
+    left: 1000px;
+    display: inline-block;
     
     /* 
     margin: -25px;
@@ -159,4 +168,8 @@ hr{
     padding: 30px;
     position: relative;
     top: 700px;
+}
+
+body{
+    
 }
