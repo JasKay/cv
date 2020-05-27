@@ -4,7 +4,8 @@
     height: 1000px;
     margin: 0px;
     padding: 0px;
-    width: 100%;
+    width: 105%;
+    display: inline-block;
     left: 0;
     top: 0;
 } 
@@ -39,17 +40,10 @@
     background-color: #1d3c45;
     height: 1000px;
     margin: 1px;
-    width: 50%;
+    width: 62%;
     position: relative;
     text-align: center;
     display: inline-block;
-
-
-    /* 
-    
-    top: 30px;
-    width: 100%; 
-    right: 280px; */
 }
 
 #about-me-id{
@@ -57,44 +51,35 @@
     font: "Sans serif";
     position: relative;
     text-align: center;
+    display: inline-block;
 }
 
 #about-screen-displays{
     display: inline-block;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 .about-talk-screen{
-    background-color: #8d18b4;
+    background-color: #fff1e1;
     height: 1000px;
     text-align: center;
-    width: 50%;
+    width: 62%;
     position: relative;
     bottom: 1000px;
     left: 1000px;
     display: inline-block;
-    
-    /* 
-    margin: -25px;
-    padding: 30px;
-    position: relative;
-    top: 30px;
-    left: 300px;
-    ; */
 }
 /* About Me CSS Property Ends Here */
 
-/* Work Experience CSS Property Ends Here */
+/* Work Experience CSS Property Starts Here */
 .work-experience-screen{
-    background-color: #da801b;
+    background-color: #fff1e1;
     height: 1000px;
     text-align: center;
-    margin: -25px;
-    padding: 30px;
     position: relative;
-    top: 20px;
-    right: 748px;
-    text-align: center;
+    bottom: 1000px;
+    display: inline-block;
+    width: 52.5%;
 }
 
 #work-experience-id{
@@ -110,12 +95,10 @@
     background-color: #1d3c45;
     height: 1000px;
     text-align: center;
-    margin: -25px;
-    padding: 30px;
     position: relative;
-    bottom: 1015px;
-    left: 725px;
-    width: 50%;
+    bottom: 2020px;
+    left: 52.5%;
+    width: 52.5%;
 }
 
 #work-experience-displays{
@@ -127,11 +110,14 @@
 
 /* Contact Me CSS Property Starts Here */
 .contact-me-screen{
-    background-color: #fff1e1;
+    background-color: #1d3c45;
     height: 1000px;
     text-align: center;
     margin: -25px;
     padding: 30px;
+    position: relative;
+    bottom: 2000px;
+    width: 50.7%;
 }
 
 .contact-me-id{
@@ -142,14 +128,20 @@
 }
 
 .explain-contact-screen{
-    background-color: #d2601a;
+    background-color: #fff1e1;
     height: 1000px;
     text-align: center;
     margin: -25px;
     padding: 30px;
+    position: relative;
+    bottom: 3009px;
+    left: 53.9%;
+    width: 50%;
+    display: inline-block;
 }
 /* Contact Me CSS Property Ends Here */
 
+/* Workaholic CSS Property Starts Here*/
 h1, h3{
     color: rgb(170, 134, 142);
 }
@@ -168,8 +160,4 @@ hr{
     padding: 30px;
     position: relative;
     top: 700px;
-}
-
-body{
-    
 }
