@@ -1,6 +1,6 @@
 /* First Screen */
 .first-screen{
-    background-color: #d2601a;
+    background-color: #b83c08;
     height: 1000px;
     margin: 0px;
     padding: 0px;
@@ -141,7 +141,15 @@
 }
 /* Contact Me CSS Property Ends Here */
 
-/* Workaholic CSS Property Starts Here*/
+/* Closing Screen CSS Property Starts Here*/
+.closing-screen{
+    width: 105%;
+    height: 250px;
+    background-color: #b83c08;
+    position: relative;
+    bottom: 3962px;
+}
+/* */
 h1, h3{
     color: rgb(170, 134, 142);
 }
