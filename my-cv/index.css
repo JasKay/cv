@@ -148,6 +148,8 @@
     background-color: #b83c08;
     position: relative;
     bottom: 3962px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 /* */
 h1, h3{
