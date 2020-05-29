@@ -1,0 +1,28 @@
+.red{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    margin-left: 0px;
+}
+.yellow{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 100px;
+}
+.blue{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+.body{
+    margin: 0;
+}
+
+h1, h3{
+    font-family: 'Merriweather', serif;
+}
