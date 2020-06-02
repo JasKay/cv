@@ -1,0 +1,40 @@
+.welcome-screen{
+    background-color: #fc766aff;
+    text-align: right;
+    height: 30px;
+}
+
+.first-screen{
+    background-color: #5b84b1ff;
+    text-align: center;
+    height: 400px;
+    padding: 20px;
+}
+
+.second-screen{
+    background-color: #fc766aff;
+    text-align: center;
+    height: 400px;
+    padding: 20px;
+}
+
+.third-screen{
+    background-color: #5b84b1ff;
+    text-align: center;
+    height: 400px;
+    padding: 20px;
+}
+
+.fourth-screen{
+    background-color: #fc766aff;
+    text-align: center;
+    height: 400px;
+    padding: 20px;
+}
+
+.closing-screen{
+    background-color: #5b84b1ff;
+    text-align: center;
+    height: 50px;
+    padding: 20px;
+}
